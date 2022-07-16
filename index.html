@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tilt Cards</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img width="450px" height="300px" src="benz.jpg" />
+            </div>
+            <div class="contentBx">
+                <h2>
+                    E video output ni live ga chudadam ela ?
+                </h2>
+                <p>
+                    Description vunna e <b>tilting-cards.netlify.app</b>  click cheyandi.
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img width="450px" height="300px" src="bmw.jpg" />
+            </div>
+            <div class="contentBx">
+                <h2>
+                    Source code ni download cheyadam ela ?
+                </h2>
+                <p>
+                    Description vunna e <b> https://github.com/online-telugu-tutorials/tilting-cards </b> click cheyandi miku kavalisina code dhorukuthundhi.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+</html>
